@@ -1,0 +1,29 @@
+.footer {
+  box-shadow: 0 3px 5px 2px gray;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  padding-block: 2rem;
+  gap: 18rem;
+  align-items: center;
+}
+
+.footer .left-sec .links {
+  display: flex;
+  
+}
+.footer .left-sec .links a{
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 2rem;
+   margin-bottom: .5rem;
+}
+.footer .right-sec {
+    margin-top: .5rem;
+}
+.footer .right-sec .icons img{
+     width: 30px;
+     margin-right: .5rem;
+     margin-top: .5rem;
+     cursor: pointer;
+}

@@ -1,0 +1,36 @@
+ .topbar{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 3px 4px 2px gainsboro;
+    position: sticky;
+    top: 0;
+    background-color: white;
+ }
+.topbar .navbar{
+    max-width: 1200px;
+    margin-inline:auto ;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.topbar .navbar .logo{
+     font-size: 30px;
+     padding-block: 1rem;
+     font-weight: bold;
+     color: red;
+     
+}
+.topbar .navbar .icons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+.topbar .navbar .icons .fonticon{
+    transition: .3s ease-in-out;
+}
+.topbar .navbar .icons .fonticon:hover{
+    color: red;
+}

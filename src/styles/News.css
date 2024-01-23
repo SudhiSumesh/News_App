@@ -1,0 +1,41 @@
+.news{
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-top: 2rem;
+  
+}
+.news h1{
+    text-decoration: underline red;
+     margin-bottom: 1rem;
+
+}
+.news .news-wrapper{
+    display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 1rem;
+ 
+}
+
+.news .news-wrapper .spinner{
+  color:rgba(79, 69, 69, 0.374);
+    margin-left: 30rem;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    font-size: 2rem;
+   
+   
+}
+.loading{
+    font-size: 20px;
+}
+@media (max-width: 600px) {
+    .news .news-wrapper { grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+  }
